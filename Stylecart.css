@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    width: 100%;
+}
+header {
+    color: white;
+    font-size: 20px;
+    margin-left: 1em;
+}
+.backshop {
+    border: none;
+    background: none;   
+    font-size: 18px;
+    font-family: 'verdana';
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+table {
+    width: 90%;
+    color: white;
+    text-align: center;
+    margin: 1em 1em 1em 0em;
+    font-size: 17px;
+    line-height: 1;
+    font-family: 'verdana';
+}
+.menu {
+    font-size: 19px;
+}
+.product {
+    text-align: left;
+}
+tr, td {
+    padding: 1em 1.2em;
+}
+img {
+    width: 45%;
+    float: right;
+    padding-right: 2em;
+}
+main {
+    color: white;
+    font-size: 17px;
+    font-family: 'verdana';
+    align-items: center;
+    column-width: 500px;
+    column-gap: 170px;
+    padding: 0rem 1rem;
+}
+article {
+    break-after: avoid;
+    padding: 1rem 3rem;
+}
+.radio {
+    margin-left: 3em;
+}
+.buttoncheckout {
+    padding: 2px 15px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'verdana';
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}

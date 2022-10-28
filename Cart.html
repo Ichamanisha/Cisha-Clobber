@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylecart.css">
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <a href="Shop.html"><button class="backshop">< CONTINUE SHOPPING</button></a>
+        <h1>My Cart</h1>
+    </header>
+    <hr>
+    <table align="center">
+        <tr class="menu">
+            <td colspan="2" padding="0"><b>PRODUCT</b></td>
+            <td><b>PRICE</b></td>
+            <td><b>QTY</b></td>
+            <td><b>TOTAL</b></td>
+        </tr>
+        <tr>
+            <td><img src="img4.jpg" alt=""></td>
+            <td class="product">
+                <h4>Mens Inpired Coat</h4>
+                <p>Color : <b>Black W White</b></p>
+                <p>Size : <b>18</b></p>
+            </td>
+            <td><b>IDR 5.103.500</b></td>
+            <td><input type="number" name="quantity" min="1" max="10"></td>
+            <td><b>IDR 5.103.500</b></td>
+        </tr>
+        <tr>
+            <td><img src="img5.jpg" alt=""></td>
+            <td class="product">
+                <h4>Ruched Sleeve Top</h4>
+                <p>Color : <b>Black W White</b></p>
+                <p>Size : <b>L</b></p>
+            </td>
+            <td><b>IDR 1.173.800</b></td>
+            <td><input type="number" name="quantity" min="1" max="10"></td>
+            <td><b>IDR 1.173.800</b></td>
+        </tr>
+        <tr>
+            <td><img src="img2.jpg" alt=""></td>
+            <td class="product">
+                <h4>Evening Coat</h4>
+                <p>Color : <b>Black W White</b></p>
+                <p>Size : <b>XL</b></p>
+            </td>
+            <td><b>IDR 6.719.600</b></td>
+            <td><input type="number" name="quantity" min="1" max="10"></td>
+            <td><b>IDR 6.719.600</b></td>
+        </tr>
+    </table>
+    <hr>
+    <main>
+        <article>
+            <p><b>Choose shipping mode :</b></p>
+            <input type="radio" class="radio" id="pick" name="shipping"><label for="pick">Store pickup <b>- FREE</b></label>
+            <br>
+            <br>
+            <input type="radio" class="radio" id="delivery" name="shipping"><label for="delivery">Delivery at home <b>IDR 10.000</b></label>
+            
+        </article>
+        <article>
+            <p>SUBTOTAL : <b>IDR 12.996.900</b></p>
+            <p>TOTAL : <b>IDR 12.996.900</b></p>
+            <button type="submit" class="buttoncheckout">Checkout</button>
+        </article>
+    </main>
+</body>
+</html>
